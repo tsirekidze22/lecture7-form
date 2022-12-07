@@ -1,0 +1,120 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.signup {
+  height: 100vh;
+  width: calc(100vw - 496px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  width: 552px;
+  height: 732px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.form-content {
+  margin: 30px auto 10px;
+  width: 424px;
+  height: 500px;
+}
+
+.form-header {
+  margin-bottom: 43px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+  width: 496px;
+  border: 2px solid red;
+  height: 100vh;
+  background: #f9f8f7;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Form */
+input {
+  width: 424px;
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding-left: 24px;
+  margin-bottom: 27px;
+}
+
+input::placeholder {
+  color: #212628;
+}
+
+.card-number-wrapper {
+  position: relative;
+  /*width: 424px;
+  height: 54px;*/
+}
+
+.card-icon {
+  position: absolute;
+  right: 25px;
+  top: 17px;
+}
+
+.date-input {
+  width: 282px;
+}
+
+.cvv-input {
+  width: 120px;
+}
+
+.inputs-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms {
+  font-size: 16px;
+  color: rgba(33, 38, 40, 0.5);
+}
+
+.terms span {
+  color: #ed82a6;
+  border-bottom: 2px solid #ed82a6;
+}
+
+.terms a {
+  color: #ed82a6;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 370px;
+  height: 64px;
+  border: none;
+  background: linear-gradient(
+    270deg,
+    #c23584 0%,
+    #e2306c 24.48%,
+    #f77736 83.85%,
+    #fa963e 100%
+  );
+  cursor: pointer;
+  color: #fff;
+  border-radius: 32px;
+  font-size: 18px;
+}
+
+.btn span {
+  text-decoration: line-through;
+  color: #f3acc4;
+}
